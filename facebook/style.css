@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: black;
+    padding: 8px 0px;
+}
+.header::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    max-width: 1000px;
+}
+.logo-area img{
+    width: 200px;
+    width: 150px;
+    margin-top: 20px;
+}
+.logo-area{
+    width: 30%;
+    float: left;    
+}
+.login-area{
+    width: 70%;
+    float: left;
+    color: white;
+}
+.login-area form{
+    float: right;
+}
+.login-area label,
+.login-area input
+{
+    display: block;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+    float:left;
+    margin-right: 15px;
+}
+.login-area label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.login-area .login{
+    margin-right: 0;
+}
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    border: 1px solid #000;
+    font-size: 14px;
+    padding: 2px 5px;
+}
+.login-area .password a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.login-area .password a:hover{
+    text-decoration: underline;
+}
+.login-area input[type="submit"]{
+    background-color: black;
+    background: 1px solid black;
+    color: #fff;
+    padding: 3px 8px;
+    margin-top: 22px;
+}
+/* End Header arra */
+.signup-area{
+    padding: 25px 0;
+    background: linear-gradient(#ffffff, #D4D9E9);
+}
+.signup-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.right-area{
+    width: 45%;
+    float: left;
+}
+.right-area h2{
+    font-size: 36px;
+    color: black;
+    margin: 0;
+}
+.right-area h4{
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.left-area p{
+    font-size: 20px;
+    color: #0e385f;
+    width: 90%;
+    font-weight: 600;
+}
+.left-area{
+    width: 55%;
+    float: left;
+}
+
+.left-area img{
+    width: 100%;
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.full-name{
+    overflow: hidden;
+}
+.first-name{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.surname{
+    width: 48%;
+    float: left;
+}
+.birthday{
+    overflow: hidden;
+}
+.birthday h4{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.birth-date{
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    
+}
+.birth-date select {
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+}
+.birth-link{
+    float: left;
+    width: 190px;
+}
+.birth-link a{
+    font-size: 13px;
+    display: block;
+    line-height: 1.1;
+    text-decoration: none;
+    color: #365899;
+}
+.birth-link a:hover{
+    text-decoration: underline;
+}
+.gender{
+    margin: 10px 0;
+}
+.gender label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+}
+.text-box{
+    margin-bottom: 20px;
+}
+.text-box p{
+    font-size: 13px;
+    color: #777;
+    width: 80%;
+}
+.text-box a{
+    text-decoration: none;
+    color: #365899;
+}
+.text-box a:hover{
+    text-decoration: underline;
+}
+.btn{
+    margin-bottom: 30px;
+}
+.btn input{
+    background: linear-gradient(#808080, #696969);
+    box-shadow: inset 0 1px 1px #777899;
+    border-color: #808080 #808080 #696969;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px 14px;
+    min-width: 194px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.btn input:hover{
+    background: linear-gradient(#696969, #808080);
+    cursor: pointer;
+}
+.page{
+    font-weight: 600;
+}
+.page a{
+    text-decoration: none;
+}
+.page a:hover{
+    text-decoration: underline;
+}
+.footer-area{
+    padding: 30px 0;
+}
+.footer-area ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-area ul li{
+    display: inline;
+}
+.footer-area .top ul li{
+    margin-right: 8px;
+}
+.footer-area .middle ul li{
+    margin-right: 12px;
+}
+.footer-area .top ul li:last-child,
+.footer-area .bottom ul li:last-child{
+    margin-right: 0;
+}
+.footer-area .top ul li:last-child a{
+    border: 1px solid #999;
+    padding: 0 6px;
+}
+.footer-area ul li a{
+    text-decoration: none;
+    color: #365899;
+    font-size: 15px;
+}
+.footer-area ul li.active a{
+    color: #737373;
+}
+.footer-area .bottom{
+    margin-top: 20px;
+}
+.footer-area span{
+    color: #737373;
+    font-size: 13px;
+}
+.footer-area .top ul li a:hover,
+.footer-area .middle ul li a:hover
+{
+    text-decoration: underline;
+}
+
+.attribution {
+    text-align: center;
+}
